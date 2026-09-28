@@ -4,11 +4,12 @@ Altere os valores entre as aspas para personalizar a sua aplicação!
 ========================================================================== */
 const APP_CONFIG = {
   // 1. Nome e Subtítulo do Produto do seu Squad
-  appTitle: "ModOn",
-  appSubtitle: "Foco & Produtividade",
+  appTitle: "App Legal",
+  appSubtitle: "Fazer tempestade em copo d'água",
   
   // 2. Ícone da Marca (Escolha no FontAwesome (https://fontawesome.com/): fa-gamepad, fa-mug-hot, fa-vr-cardboard, etc)
-  brandIcon: "fa-cubes-stacked",
+  brandIcon: "fa-solid fa-face-tired",
+  
 
   // 3. Cores e Imagem de Fundo (https://unsplash.com/s/photos)
   //clique com o botão direito sobre a imagem e selecione a opção "Copiar endereço da imagem"
@@ -16,25 +17,25 @@ const APP_CONFIG = {
     primaryColor: "#8b5cf6",
     accentColor: "#ec4899",
     bgOverlay: "rgba(15, 23, 42, 0.84)",
-    bgImageUrl: "https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    bgImageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP0rZVHPjjuY1iaSlATwFkgzw5OuGQ7M4LOwltF86BfA&s=10"
   },
 
   // 4. Tempos do Cronometro (em minutos)
   timer: {
-    focusMinutes: 25, //modo foco 
-    breakMinutes: 5   //pausa
+    focusMinutes: 30, //modo foco 
+    breakMinutes: 7   //pausa
   },
 
   // 5. Vídeo de Fundo do Modo Foco (https://www.pexels.com/pt-br/procurar/videos/)
   // clique com o botão direito sobre o video e selecione a opção "Copiar link do video"
-  focusVideoUrl: "https://www.pexels.com/pt-br/download/video/28615179/",
+  focusVideoUrl: "https://www.pexels.com/pt-br/download/video/34742993/",
 
   // 6. Link da Playlist do Spotify escolhida pelo grupo (https://open.spotify.com/)
   // selecione a playlist, clique nos 3 pontos, em share/compartilhar e em "Copiar link da playlist"
-  spotifyPlaylistUrl: "https://open.spotify.com/playlist/679wCT6dVMDBxrYa5NcrXL?si=qp9eut2bSjWDacg7I7Vy3A",
+  spotifyPlaylistUrl: "https://open.spotify.com/playlist/2Q7mUdrIlmUS2VMlNDiqhl?si=0-sD55F3SamKdtsc-sEUtQ&utm_source=copy-link&pi=5YQVe0XHSKKe1",
 
   // 7. Créditos da Equipe (Aparece no Rodapé)
-  authorName: "Hyan & Ramon",
+  authorName: "Hyan & Ramon & João",
   devDate: "Setembro, 2026",
 
   // 8. Tarefas Iniciais do Quadro de tarefas
@@ -42,7 +43,8 @@ const APP_CONFIG = {
     { id: "t1", text: "Algebra linear, estudar para prova", status: "done", tag: "Matemática" },
     { id: "t2", text: "Projeto de Ciências, vulcão", status: "doing", tag: "Geografia" },
     { id: "t3", text: "Programar o Front-End em React do trabalho", status: "doing", tag: "Programação" },
-    { id: "t4", text: "Ler o livro 'O Alquimista' de Paulo Coelho", status: "todo", tag: "Português" }
+    { id: "t4", text: "Ler o livro 'O Alquimista' de Paulo Coelho", status: "todo", tag: "Português" },
+    { id: "t5", text: "Fazer tempestade em copo d'água", status: "doing", tag: "Geografia" }
   ]
 };
 
@@ -86,6 +88,18 @@ const PRESETS = {
     bgOverlay: "rgba(10, 10, 15, 0.50)",
     focusVideoUrl: "https://www.pexels.com/pt-br/download/video/28615181/",
     spotifyPlaylistUrl: "https://open.spotify.com/playlist/0Pu0tXDywekfDRWiVluaVl?si=Az_z84ECSf6u-Bn62lPsJA"
+  },
+  // Tema 04
+  Metal: {
+    themeName: "Metal", // 🏷️ Nome exibido no botão do cabeçalho
+    appTitle: "ModOn: Fazer tempestade em copo d'água",
+    appSubtitle: "Tá na hora de quebrar tudo",
+    primaryColor: "#88aa04",
+    brandIcon: "fa-gamepad",
+    bgImageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP0rZVHPjjuY1iaSlATwFkgzw5OuGQ7M4LOwltF86BfA&s=10",
+    bgOverlay: "rgba(15, 15, 25, 0.5)",
+    focusVideoUrl: "https://www.pexels.com/pt-br/download/video/34742993/",
+    spotifyPlaylistUrl: "https://open.spotify.com/playlist/2Q7mUdrIlmUS2VMlNDiqhl?si=0-sD55F3SamKdtsc-sEUtQ&utm_source=copy-link&pi=5YQVe0XHSKKe1"
   }
 };
 
